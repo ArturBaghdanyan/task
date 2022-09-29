@@ -1,0 +1,22 @@
+.history {
+  font-family: sans-serif Arial;
+  width: 100%;
+  border: 2px solid black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    h1 {
+      color: black;
+    }
+    p {
+      text-align: justify;
+      color: blue;
+    }
+  }
+}
